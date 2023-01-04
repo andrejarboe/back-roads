@@ -1,35 +1,49 @@
 function Services() {
   return (
-    <section className="section" id="about">
-      <div className="section-title">
+    <section class="section services" id="services">
+      <div class="section-title">
         <h2>
-          about <span>us</span>
+          our <span>services</span>
         </h2>
       </div>
+      <div class="section-center services-center">
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-wallet fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="service-title">saving money</h4>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores, officia.
+            </p>
+          </div>
+        </article>
 
-      <div className="section-center about-center">
-        <div className="about-img">
-          <img
-            src="./images/about.jpeg"
-            className="about-photo"
-            alt="awesome beach"
-          />
-        </div>
-        <article className="about-info">
-          <h3>explore the difference</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
-          </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
-          </p>
-          <a href="#" className="btn">
-            read more
-          </a>
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-tree fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="service-title">endless hiking</h4>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores, officia.
+            </p>
+          </div>
+        </article>
+
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-socks fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="service-title">amazing comfort</h4>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Asperiores, officia.
+            </p>
+          </div>
         </article>
       </div>
     </section>
