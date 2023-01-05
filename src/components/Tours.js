@@ -5,8 +5,6 @@ function Tours() {
     return (
       <section className="section" id="tours">
         <Title title="featured" subTitle="tours" />
-
-
         <div className="section-center featured-center">
           <article className="tour-card">
             <div className="tour-img-container">
